@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DataAcquisition">
+      <UniqueIdentifier>{18a14cea-fdef-4909-b5c2-9bda8c7dd0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataRecording">
+      <UniqueIdentifier>{b748d765-f12a-4633-bec3-ed602836c433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscel">
+      <UniqueIdentifier>{d070c358-d2bd-4bf3-ad0d-d39446428d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataAcquisition\SignatecDAQ">
+      <UniqueIdentifier>{365c5df6-9589-4290-94cc-8a231dc27322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscel\numcpp">
+      <UniqueIdentifier>{5f271514-4bf2-4eaf-9dc7-aa761f88fee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscel\objcpp">
+      <UniqueIdentifier>{21fe0f5f-e42f-4a59-8924-770dd4ae2e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab View">
+      <UniqueIdentifier>{ad99029a-0473-400b-8705-4450c4085ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataRecording\FileWriter">
+      <UniqueIdentifier>{9f78d74f-f37c-4310-b9c6-b3d57f4e576c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NI DAQ">
+      <UniqueIdentifier>{abb60ce0-c68b-4320-bcff-c5f6e3edca41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess">
+      <UniqueIdentifier>{3aa335c7-f10e-4d8c-98c8-868d15d9ffb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\OCTProcess">
+      <UniqueIdentifier>{e87e1985-4fd0-4c42-beb0-a5214ea0c8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\OCTProcess\CalibrationDlg">
+      <UniqueIdentifier>{208c261f-aaf2-40fe-8e85-7c4958b92546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\FLIMProcess">
+      <UniqueIdentifier>{012aaf71-ebed-4cdf-8e6a-21da9aba4bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZaberStage">
+      <UniqueIdentifier>{11947ef2-9448-4cc6-bc63-5933847d2868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\FLIMProcess\FLIMAnalysisDlg">
+      <UniqueIdentifier>{3ddef394-3a2d-4378-af14-3e72b2b4eb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RS232">
+      <UniqueIdentifier>{e421052e-a3a5-4453-a07d-6cd6b82ffa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RS232\CommThread">
+      <UniqueIdentifier>{89a4bc40-962b-44cd-a666-650a96f05057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RS232\FaulhaberMotor">
+      <UniqueIdentifier>{ed53b67b-2470-4ad8-8234-e08350b254f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RS232\ElforlightLaser">
+      <UniqueIdentifier>{dbb3e7e1-761c-4435-b503-216f4bcb1b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\FLIMProcess\PulseOverlapDlg">
+      <UniqueIdentifier>{b8b32c7a-c0cc-4b42-bb76-f10717a5d1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageProcess\FLIMProcess\PulseReviewDlg">
+      <UniqueIdentifier>{1189b581-7dc0-4844-aa74-566b1584b235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAcquisition\DataAcquisition.h">
+      <Filter>DataAcquisition</Filter>
+    </ClInclude>
+    <ClInclude Include="NI DAQ\GalvoScan.h">
+      <Filter>NI DAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="NI DAQ\SyncFLIM.h">
+      <Filter>NI DAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\objcpp\signal.h">
+      <Filter>Miscel\objcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\objcpp\object.h">
+      <Filter>Miscel\objcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\numcpp\array.h">
+      <Filter>Miscel\numcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\numcpp\allocator.h">
+      <Filter>Miscel\numcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAcquisition\SignatecDAQ\SignatecDAQ.h">
+      <Filter>DataAcquisition\SignatecDAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRecording\DataRecording.h">
+      <Filter>DataRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRecording\FileWriter\FileWriter.h">
+      <Filter>DataRecording\FileWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\MyBitmap.h">
+      <Filter>ImageProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab View\VisResult.h">
+      <Filter>Tab View</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab View\VisStream.h">
+      <Filter>Tab View</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\OCTProcess\OCTProcess.h">
+      <Filter>ImageProcess\OCTProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\OCTProcess\CalibrationDlg\CalibrationDlg.h">
+      <Filter>ImageProcess\OCTProcess\CalibrationDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\Scope.h">
+      <Filter>Miscel</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\FLIMProcess\FLIMProcess.h">
+      <Filter>ImageProcess\FLIMProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ZaberStage\z_common.h">
+      <Filter>ZaberStage</Filter>
+    </ClInclude>
+    <ClInclude Include="ZaberStage\zb_serial.h">
+      <Filter>ZaberStage</Filter>
+    </ClInclude>
+    <ClInclude Include="ZaberStage\ZaberStage.h">
+      <Filter>ZaberStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscel\objcpp\Queue.h">
+      <Filter>Miscel\objcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\circularize.h">
+      <Filter>ImageProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\Imshow.h">
+      <Filter>ImageProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Havana.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HavanaDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\FLIMProcess\FLIMAnalysisDlg\FLIMAnalysisDlg.h">
+      <Filter>ImageProcess\FLIMProcess\FLIMAnalysisDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="RS232\CommThread\CommThread.h">
+      <Filter>RS232\CommThread</Filter>
+    </ClInclude>
+    <ClInclude Include="RS232\ElforlightLaser\ElforlightLaser.h">
+      <Filter>RS232\ElforlightLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="RS232\FaulhaberMotor\FaulhaberMotor.h">
+      <Filter>RS232\FaulhaberMotor</Filter>
+    </ClInclude>
+    <ClInclude Include="NI DAQ\GainControl.h">
+      <Filter>NI DAQ</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\FLIMProcess\PulseOverlappedDlg\PulseOverlapDlg.h">
+      <Filter>ImageProcess\FLIMProcess\PulseOverlapDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\medfilt.h">
+      <Filter>ImageProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\FLIMProcess\PulseReviewDlg\PulseReviewDlg.h">
+      <Filter>ImageProcess\FLIMProcess\PulseReviewDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAcquisition\DataAcquisition.cpp">
+      <Filter>DataAcquisition</Filter>
+    </ClCompile>
+    <ClCompile Include="NI DAQ\GalvoScan.cpp">
+      <Filter>NI DAQ</Filter>
+    </ClCompile>
+    <ClCompile Include="NI DAQ\SyncFLIM.cpp">
+      <Filter>NI DAQ</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAcquisition\SignatecDAQ\SignatecDAQ.cpp">
+      <Filter>DataAcquisition\SignatecDAQ</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRecording\DataRecording.cpp">
+      <Filter>DataRecording</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRecording\FileWriter\FileWriter.cpp">
+      <Filter>DataRecording\FileWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\MyBitmap.cpp">
+      <Filter>ImageProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab View\VisResult.cpp">
+      <Filter>Tab View</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab View\VisStream.cpp">
+      <Filter>Tab View</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\OCTProcess\OCTProcess.cpp">
+      <Filter>ImageProcess\OCTProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\OCTProcess\CalibrationDlg\CalibrationDlg.cpp">
+      <Filter>ImageProcess\OCTProcess\CalibrationDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscel\Scope.cpp">
+      <Filter>Miscel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\FLIMProcess\FLIMProcess.cpp">
+      <Filter>ImageProcess\FLIMProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ZaberStage\zb_serial.c">
+      <Filter>ZaberStage</Filter>
+    </ClCompile>
+    <ClCompile Include="ZaberStage\ZaberStage.cpp">
+      <Filter>ZaberStage</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\Imshow.cpp">
+      <Filter>ImageProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Havana.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HavanaDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\FLIMProcess\FLIMAnalysisDlg\FLIMAnalysisDlg.cpp">
+      <Filter>ImageProcess\FLIMProcess\FLIMAnalysisDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="RS232\CommThread\CommThread.cpp">
+      <Filter>RS232\CommThread</Filter>
+    </ClCompile>
+    <ClCompile Include="RS232\ElforlightLaser\ElforlightLaser.cpp">
+      <Filter>RS232\ElforlightLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="RS232\FaulhaberMotor\FaulhaberMotor.cpp">
+      <Filter>RS232\FaulhaberMotor</Filter>
+    </ClCompile>
+    <ClCompile Include="NI DAQ\GainControl.cpp">
+      <Filter>NI DAQ</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\FLIMProcess\PulseOverlappedDlg\PulseOverlapDlg.cpp">
+      <Filter>ImageProcess\FLIMProcess\PulseOverlapDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\FLIMProcess\PulseReviewDlg\PulseReviewDlg.cpp">
+      <Filter>ImageProcess\FLIMProcess\PulseReviewDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Havana.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\Havana.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Havana.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
